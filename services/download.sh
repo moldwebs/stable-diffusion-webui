@@ -3,7 +3,7 @@
 set -Eeuo pipefail
 
 # TODO: maybe just use the .gitignore file to create all of these
-# mkdir -vp /data/.cache /data/StableDiffusion /data/ControlNet /data/Codeformer /data/GFPGAN /data/ESRGAN /data/BSRGAN /data/RealESRGAN /data/SwinIR /data/LDSR /data/ScuNET /data/embeddings /data/VAE /data/Deepdanbooru /data/MiDaS /data/Lora
+mkdir -vp models/Stable-diffusion models/ControlNet models/Codeformer models/GFPGAN models/ESRGAN models/BSRGAN models/RealESRGAN models/SwinIR models/LDSR models/ScuNET models/VAE models/Deepdanbooru models/midas models/Lora models/hypernetworks models/torch_deepdanbooru models/BLIP models/openpose
 
 echo "Downloading, this might take a while..."
 
